@@ -12,5 +12,5 @@ public interface BO<T> {
     void validar (T entidade) throws NegocioException;
     
 }
-    
+
 
