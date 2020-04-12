@@ -1,0 +1,12 @@
+{
+    "elements": {
+        "jsp:setProperty": {},
+        "jsp:useBean": {
+            "attributes": {
+                "id": {}
+            }
+        },
+        "jsp:getProperty": {}
+    },
+    "attributes": {}
+}
