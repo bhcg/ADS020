@@ -8,12 +8,14 @@
     </h:head>
     <h:body>
         <h:form>
+            
             <p:outputLabel value="Usuário"/>
             <p:inputText size="20" value="#{loginMB.usuario}" required="true" validatorMessage="Campo usuário é obrigatório!"/>
-            <p:outputLabel value="Senha"/>
-            <p:inputSecret size="20" value="#{loginMB.senha}" required="true" validatorMessage="Campo senha é obrigatório!"/>
+            <br><p:outputLabel value="Senha"/>            
+            <p:password size="20" value="#{loginMB.senha}" required="true" validatorMessage="Campo senha é obrigatório!"/>
+            </br>
             <p:commandButton value="Entrar" action="#{loginMB.login}"/>
+            
         </h:form>
     </h:body>
 </html>
-
