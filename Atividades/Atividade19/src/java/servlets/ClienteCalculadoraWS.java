@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author samanta
+ *
  */
 @WebServlet(name = "ClienteCalculadoraWS", urlPatterns = {"/calculadora"})
 public class ClienteCalculadoraWS extends HttpServlet {

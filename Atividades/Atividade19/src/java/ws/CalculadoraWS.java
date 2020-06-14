@@ -11,7 +11,7 @@ import javax.jws.WebParam;
 
 /**
  *
- * @author samanta
+ *
  */
 @WebService(serviceName = "CalculadoraWS")
 public class CalculadoraWS {
